@@ -1,0 +1,22 @@
+name: Lint C Code with clang-tidy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install clang
+      run: sudo apt-get install -y clang-tools
+
+    - name: Run clang-tidy
+      run: |
+        clang-tidy --export-fixes=fixes.yaml $(find . -name '*.c')
