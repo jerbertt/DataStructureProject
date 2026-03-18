@@ -1,4 +1,4 @@
-
+Prepared by: Jerwyn Angchua
 
 ### Doubly Linked Lists
 ***
