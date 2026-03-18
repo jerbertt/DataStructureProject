@@ -340,8 +340,3 @@ With that, the steps are as follows:
 
 <hr>
 <hr>
-
-
-<br>
-<br>
-<br>
