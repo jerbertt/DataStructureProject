@@ -1,5 +1,5 @@
 # Data Structures Project
-In completion of CS33: Data Structures and Algorithms I
+In completion of CS32: Data Structures and Algorithms I
 
 ## Contributors
 Angchua, Jerwyn\
